@@ -18,7 +18,7 @@ This repository contains the completed tasks for the *Python Programming Interns
 
 ### Task 2: Calculator
 - *Description*: A simple calculator capable of performing basic arithmetic operations along with some advanced calculations.
-- *SIt have following arithmetic operation*:
+- *It have following arithmetic operation*:
   - Addition
   - Subtraction
   - Multiplication
