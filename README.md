@@ -8,18 +8,17 @@ This repository contains the completed tasks for the *Python Programming Interns
 
 ### Task 1: To-Do List Application
 - *Description*: A command-line application that allows users to efficiently create, update, and track their tasks.
-- *Features*:
+- * It have following Features*:
   - Add new tasks
   - Update existing tasks
   - Mark tasks as completed
   - Delete tasks
-  - List all tasks with their status
 
 ---
 
 ### Task 2: Calculator
 - *Description*: A simple calculator capable of performing basic arithmetic operations along with some advanced calculations.
-- *Supported Operations*:
+- *SIt have following arithmetic operation*:
   - Addition
   - Subtraction
   - Multiplication
