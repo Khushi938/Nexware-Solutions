@@ -1,11 +1,9 @@
 import json
 import os
-
 class TodoList:
     def __init__(self, filename='todo_list.json'):
         self.filename = filename
         self.tasks = self.load_tasks()
-
     def load_tasks(self):
         if os.path.exists(self.filename):
             with open(self.filename, 'r') as file:
@@ -45,10 +43,8 @@ class TodoList:
             self.save_tasks()
         else:
             print("Invalid task number.")
-
 def main():
     todo = TodoList()
-
     while True:
         print("\nTo-Do List:")
         todo.view_tasks()
