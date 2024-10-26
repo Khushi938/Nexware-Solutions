@@ -18,7 +18,7 @@ def determine_winner(user_choice, computer_choice):
          (user_choice == 'paper' and computer_choice == 'rock'):
         return "You win!"
     else:
-        return "Computer wins!"
+        return " You Loss ,Computer wins!"
 
 # Main program loop
 x = int(input("Press 1 for playing the game------>>>>>> "))
