@@ -1,9 +1,8 @@
 import random
-
 def get_computer_choice():
     choices = ['rock', 'paper', 'scissors']
     return random.choice(choices)
-
+    
 def get_user_choice():
     user_input = input("Enter your choice (rock, paper, scissors): ").lower()
     while user_input not in ['rock', 'paper', 'scissors']:
